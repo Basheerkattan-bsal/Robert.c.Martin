@@ -15,7 +15,7 @@ header {
     margin: auto;
     max-width: 100%;
     max-height: 100%;
-     background-image: url(/images/headerbackground.jpg);
+     background-image: url(../images/headerbackground.jpg);
      background-size: cover;
 }
 .headerTitle {
@@ -93,7 +93,6 @@ background-color:#6EDCD9;
 }
 .allSections{
    margin:1rem 5rem;
-    
      background-color:#6EDCD9;
 }
 .topOfMain{
@@ -109,12 +108,13 @@ background-color:#6EDCD9;
     
 }
 .topOfMainText{
-    background-image: url(/images/topmainimg.png);
+    background-image: url(../images/topmainimg.png);
     background-size: cover;
     max-width: 50%;
     border:2px solid white;
     padding: 10px;
     text-shadow:black 1px 1px ;
+    opacity:0.8;
 }
 .topOfMainImg{
     width: 50%;
@@ -127,7 +127,8 @@ background-color:#6EDCD9;
     display:flex;
     width: 50rem;
     object-fit: fit;
-    height:50rem;  
+    height:50rem; 
+    
    
 }
 .middle{
@@ -170,12 +171,25 @@ background-color:#6EDCD9;
     
 }
 
-.fotter{
-background-image: url(images/footer.jpeg);
-background-size: cover;
-}
 footer{
-    background-image: url(/images/footer.jpeg);
-    background-size: cover;
-    
+background-image: url(../images/footer.jpeg);
+
+background-size: cover;
+height:50rem;
+
 }
+/* .back{
+   display: flex;
+   width: 10rem;
+   height:10rem;
+   margin: auto;
+
+}
+
+.back a{
+    width:10rem;
+    height:10rem;
+    border:2px solid #9254C8;
+    border-radius: 50%;
+}
+ */
